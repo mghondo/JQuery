@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="js/jquery.js"></script>      
+<!--<script src="js/scripts.js"></script>-->
+
+<script>
+
+$("document").ready(function(){
+
+    $(".paras").hover(highLightPara);
+    
+    function highLightPara() {
+       
+        $(this).toggleClass("highLight");
+        
+    }
+    
+    
+
+});
+    
+    
+    
+</script>
+
+
+<style>
+    
+    .highLight {
+      
+        background: #000;
+        color: #fff;    
+        
+    }
+    
+    
+    </style>
+
+</head>
+<body>
+
+
+<div id="box">
+   
+    <p class="paras">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eum ex? Assumenda eaque laboriosam ipsa pariatur, doloremque, eos, necessitatibus aperiam alias odio exercitationem obcaecati dignissimos commodi reprehenderit debitis, fugit voluptatem.</p>
+    
+    <p class="paras">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eum ex? Assumenda eaque laboriosam ipsa pariatur, doloremque, eos, necessitatibus aperiam alias odio exercitationem obcaecati dignissimos commodi reprehenderit debitis, fugit voluptatem.</p>
+    
+    <p class="paras">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eum ex? Assumenda eaque laboriosam ipsa pariatur, doloremque, eos, necessitatibus aperiam alias odio exercitationem obcaecati dignissimos commodi reprehenderit debitis, fugit voluptatem.</p>
+    
+    <p class="paras">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eum ex? Assumenda eaque laboriosam ipsa pariatur, doloremque, eos, necessitatibus aperiam alias odio exercitationem obcaecati dignissimos commodi reprehenderit debitis, fugit voluptatem.</p>
+    
+    
+</div>
+       
+
+ 
+<!--
+<div class="alert alert-success alert-dismissible" role="alert">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<strong>What Up!</strong> If you see this then Bootstrap and Live Preview are working!
+</div>
+-->
+   
+    
+<!--    <script src="js/scripts.js"></script>-->   
+
+ <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      
+</body>
+</html>

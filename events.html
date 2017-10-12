@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="js/jquery.js"></script>      
+<!--<script src="js/scripts.js"></script>-->
+
+<script>
+
+$("document").ready(function(){
+
+    // EXERCISE FOR WHEN MOUSE IS CLICKED
+    
+    $("#box").on("click", whenMouseIsClicked);
+    
+
+    
+    function whenMouseIsClicked() {
+        
+        $("#box").html("<h4>Hey, you clicked me</h4>")
+        
+    }
+    
+    
+    // EXERCISE FOR WHEN MOUSE LEAVES. 
+    
+   $("#box2").on("mouseleave", whenMouseLeaves);
+    
+    function whenMouseLeaves(){
+        
+        $("#box2").html("<h4>Hello There!</h4>");
+        
+    }
+
+});
+    
+    
+    
+</script>
+
+
+
+
+</head>
+<body>
+<style>
+    #box {
+        
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+    }
+    
+    #box2 {
+        
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+    }
+    
+    
+    </style>
+
+ <div id="box">
+     
+     
+     
+     
+     
+ </div>
+<br><br>
+  
+<div id="box2">
+    
+    
+    
+</div>     
+
+ 
+<!--
+<div class="alert alert-success alert-dismissible" role="alert">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<strong>What Up!</strong> If you see this then Bootstrap and Live Preview are working!
+</div>
+-->
+   
+    
+<!--    <script src="js/scripts.js"></script>-->   
+
+ <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      
+</body>
+</html>
